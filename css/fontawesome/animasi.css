@@ -1,0 +1,34 @@
+@import url("style.css");
+
+@keyframes kiriganjil {
+    0%{width: 0%;}
+    35%{width: 90%;left: -20px;}
+    65%{width: 75%;left: -20px;}
+    100%{width: 100%;left: -20px;}
+}
+@keyframes kirigenap {
+    0%{width: 0%;}
+    35%{width: 80%;left: -20px;}
+    65%{width: 65%;left: -20px;}
+    100%{width: 90%;left: -20px;}
+}
+@keyframes kananganjil {
+    0%{right: -100%;width: 120%;}
+    35%{right: -20%;width: 100%;}
+    65%{right: -35%;width: 100%;}
+    100%{right: -0%;width: 120%}
+}
+@keyframes kanangenap {
+    0%{right: -100%;width: 120%;}
+    35%{right: -30%;width: 100%;}
+    65%{right: -45%;width: 100%;}
+    100%{right: -10%;width: 120%}
+}
+
+
+
+
+
+
+
+

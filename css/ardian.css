@@ -1,0 +1,574 @@
+
+/*PEWARNAAN*/
+:root{
+    --ard-merah-tua:#AE3535;
+    --ard-biru-kehijauan: #00ADB5;
+    --ard-biru-kehijauan-muda: #27d6c2;
+    --ard-biru-muda: #74cadf;
+    --ard-abuabu:#393E46;
+    --ard-putih:#EBEBED;
+    --ard-emas: #F9ED69;
+    --ard-biru-tua:#2868E2;
+    --ard-biru-tua-kehijuan:#0E9199;
+    --ard-biru-tua-kehijuan-2: #0FBDBA ;
+    --ard-hitam:#222831;
+}
+
+body{
+    position: relative;
+}
+
+body::-webkit-scrollbar{
+    width: 1.5em;
+}
+body::-webkit-scrollbar-track{
+    background-color: var(--ard-abuabu);
+}
+body::-webkit-scrollbar-thumb{
+    background: var(--ard-biru-tua-kehijuan-2);
+    border-radius: 2em;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+}
+.active-button{
+    background: var(--ard-hitam);
+    color: var(--ard-biru-tua-kehijuan-2) !important;
+    padding: 0 0.4em;
+    border-radius: 2em;
+}
+.nav-link {
+    color: inherit !important;
+}
+.trans-8{
+    transform: scale(0.8);
+}
+.mt-home{
+    margin-top: 14em !important;
+}
+/*FONT SIZZE*/
+.md-18{
+    font-size: 1.125em !important;
+}
+.md-24{
+    font-size: 1.5em !important;
+}
+.md-36{
+    font-size: 2.250em !important;
+}
+.md-48{
+    font-size: 3em !important;
+}
+/*Background all*/
+
+.bg-ard-merah-tua{
+    background: var(--ard-merah-tua);
+}
+.bg-ard-biru-kehijauan{
+    background: var(--ard-biru-kehijauan) ;
+}
+.bg-ard-abu-abu{
+    background: var(--ard-abuabu) ;
+}
+.bg-ard-putih{
+    background: var(--ard-putih) ;
+}
+.bg-ard-emas{
+    background: var(--ard-emas) ;
+}
+.bg-ard-biru-tua{
+    background: var(--ard-biru-tua) ;
+}
+.bg-ard-biru-muda{
+    background: var(--ard-biru-muda) ;
+}
+.bg-ard-biru-tua-kehijuan{
+    background: var(--ard-biru-tua-kehijuan)  ;
+}
+.bg-ard-biru-kehijauan-2{
+    background: var(--ard-biru-tua-kehijuan-2) ;
+}
+.bg-ard-biru-kehijauan-muda{
+    background: var(--ard-biru-kehijauan-muda) ;
+}
+.bg-ard-hitam{
+    background: var(--ard-hitam) ;
+}
+/*bg end*/
+
+/*HTML DOCUMENT*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*TExtting color ardian*/
+.text-ard-merah-tua{
+    color: var(--ard-merah-tua) ;
+}
+.text-ard-biru-kehijauan{
+    color: var(--ard-biru-kehijauan);
+}
+.text-ard-abu-abu{
+    color: var(--ard-abuabu);
+}
+.text-ard-putih{
+    color: var(--ard-putih);
+}
+.text-ard-emas{
+    color: var(--ard-emas);
+}
+.text-ard-biru-tua{
+    color: var(--ard-biru-tua);
+}
+.text-ard-biru-muda{
+    color: var(--ard-biru-muda);
+}
+.text-ard-biru-tua-kehijuan{
+    color: var(--ard-biru-tua-kehijuan);
+}
+.text-ard-biru-kehijauan-2{
+    color: var(--ard-biru-tua-kehijuan-2);
+}
+.text-ard-biru-kehijauan-muda{
+    color: var(--ard-biru-kehijauan-muda);
+}
+.text-ard-hitam{
+    color: var(--ard-hitam);
+}
+/*end*/
+
+header{
+    transition: 0.5s;
+    height: 7.5em;
+    width: 200%;
+}
+#navbarHeader{
+    transition: 0.5s;
+}
+#navbarPerpus{
+    margin-left: 10%;
+}
+
+/*HEADER -HOME*/
+
+.navbar{
+    min-height: 100px;
+}
+.navbar-toggler{
+    margin-top: 30px;
+}
+img.logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: auto;
+    height: 80px;
+}
+
+.nav-item a{
+    font-size: 1.3em;
+    color: var(--ard-hitam) ;
+}
+.nav-item:not(#home){
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.navbar-brand{
+    margin-right: 20%;
+}
+.col-lg-6 img.img-fluid{
+    width:70%;
+}
+.img-thumbnail{
+    background-color: var(--ard-abuabu) !important;
+    border: 1px solid var(--ard-abuabu) !important;
+}
+.text-ukur-2{
+    font-size: 2em;
+}
+.mt-6{
+    margin-top: 4em !important;
+}
+.font-verdana{
+    font-family: Verdana;
+}
+.kotak-besar{
+    width: 200px;
+    height: 300px;
+    background: var(--ard-biru-kehijauan);
+    top: 8%;
+    left: 40%;
+}
+.kotak-sedang{
+    width: 200px;
+    height: 200px;
+    background: var(--ard-biru-kehijauan);
+    top: 39%;
+    left: 20%;
+}
+.kotak-kecil{
+    width: 200px;
+    height: 100px;
+    background: var(--ard-biru-kehijauan);
+    top: 70%;
+}
+
+.z-index-min-1{
+    position: absolute;
+    z-index: -1;
+}
+.z-index-plus-1{
+    position: absolute;
+    z-index: 1;
+}
+
+/*Recomend book*/
+#recommendBooks{
+    height: 200px;
+}
+#recommendBooks .outline-none h2{
+    transform: scale(0.9);
+}
+.text-ukur-3{
+    font-size: 2.6em;
+    line-height: 1.3;
+}
+.text-ukur-1{
+    font-size: 1.6em;
+}
+.ukuran-button{
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+}
+.rounded-recomend{
+    border: 2px solid var(--ard-biru-kehijauan);
+    border-radius: 20px !important;
+}
+.rounded-card-img{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+}
+.outline-none{
+    outline: none !important;
+}
+
+/*About*/
+#about{
+    width: 100%;
+    height: 640px;
+}
+#about .container .card{
+    height: 580px;
+}
+.container .rounded-recomend{
+    border: none;
+}
+.title-card-about{
+    padding: 0.5em;
+    height: 100px;
+    width: 60%;
+    left: -1%;
+    top: 20px;
+}
+
+.rounded-bar-icon{
+    border-radius: 100px;
+    padding: 1em;
+    height: 70px;
+    width: 100%;
+}
+
+#about .row .col-md-5 img{
+    height: 240px;
+    width: auto;
+    border-radius: 10px;
+    margin-top: 3em;
+}
+#about .row.no-gutters .col-md-5 {
+    margin-top: 2.4em;
+}
+#about .row .col-md-5 .card{
+    height: 320px;
+    width: 125%;
+}
+#about .row.no-gutters .col-md-5 .card .card-body p{
+    text-indent: 40px;
+}
+#about .row.no-gutters .col-md-5 .card .card-body .font-verdana{
+    font-weight: 600;
+    font-size: 14px;
+}
+#about .row.no-gutters .col-md-5 .card .card-body a:hover{
+    color: #fdfaff !important;
+    background: #0f6f6c;
+    text-underline: none;
+    text-decoration: none;
+}
+
+/*SERVICES*/
+
+#services{
+    min-height: 200px;
+    z-index: 1;
+    padding: 0 !important;
+}
+
+#services .container{
+    position: relative;
+    z-index: 2;
+}
+
+#services h2.text-uppercase{
+    width: 22%;
+    border-bottom: 4px solid var(--ard-hitam)!important;
+}
+#services .bookMenu{
+    margin-top: 4em !important
+}
+#services .card{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#services .card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#services .card-body{
+    padding-bottom: 1em;
+}
+#services .judulBuku{
+    font-size: 0.8em;
+    margin-left: 1em;
+    margin-top: 1.6em;
+    margin-bottom: 0.1em;
+}
+#services p:last-child{
+    font-size: 0.8em;
+    margin-left: 1em;
+}
+#services .card-img-top{
+    height: auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.bookMenu .col-md-4{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+#services .end-book h2{
+    content: ' ';
+    width: 50%;
+    border-bottom: 4px solid var(--ard-hitam)!important;
+}
+
+#nav-right{
+    width: 80%;
+    height: 20%;
+    z-index: 1;
+    top: 25%;
+    left: 240%;
+    border-radius: 2em;
+    box-shadow: 2em 0 var(--ard-biru-kehijauan);
+}
+
+#nav-right i{
+    font-size: 2.4em;
+}
+#nav-right button{
+    font-size: 1.4em;
+    transition: 0.3s;
+   }
+#nav-right button:not(.fas){
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 0  0.5em;
+}
+#nav-right button:hover{
+    color: var(--ard-biru-kehijauan);
+    transform: scale(1.2);
+}
+
+/*Contact*/
+#contact{
+    height: 670px;
+}
+#contact .row .col-lg-4 .card{
+    height: 570px;
+    width: 90%;
+}
+#contact .row .col-lg-4 .d-flex{
+    border-radius: 10% !important;
+}
+
+#contact #profileContact{
+    border: none;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+#contact .card > div:nth-child(even){
+   border-radius: 100px !important;
+    border: none;
+    width: 50%;
+}
+
+#description i,#school i{
+     margin-left: 1em;
+     margin-right: 1em;
+ }
+#description,#school{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+}
+#iconBG{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    border-radius: 100px;
+    transition: .5s !important;
+}
+#descContact{
+    width: 100px;
+    min-height: 200px;
+    transition: .5s;
+}
+#descContact > div{
+    width: 300%;
+    height: 50%;
+    margin-top: 20%;
+    border-radius: 2em;
+}
+
+#descContact .row > div{
+    margin-top: 0.6em;
+    margin-bottom: 0.2em;
+}
+#descContact .row > div:first-child {
+    margin-left: 1em;
+}
+#descContact .row > div:first-child i.material-icons{
+    margin-left: -0.2em;
+}
+#descContact .row > div:last-child{
+    margin-right: 1em;
+}
+#descContact .row div p{
+    margin-bottom: 0 !important;
+    padding-left: 0.6em;
+    font-weight: bold;
+}
+#descContact .row div p.mate {
+    margin-bottom: 0 !important;
+    padding-left: 0.6em;
+    padding-top: 0.2em;
+}
+#descContact .row div i:not(.material-icons){
+    font-size: 1.6em;
+    padding-bottom: 0.375em;
+}
+#descContact .row div i.material-icons{
+    font-size: 2em;
+
+}
+#contact .row .card-body{
+    width: 90%;
+}
+.phone{
+    font-size: 1.3em;
+    transform: translate(0,-10%);
+}
+.alamat{
+    font-size: 1.2em;
+}
+
+#schoolContact{
+    width: 100%;
+    height: 80%;
+    bottom: 80%;
+    right: 120%;
+    border-radius: 10%;
+    transition: .5s;
+}
+
+#schoolContact p:first-child{
+    font-size: 2em;
+    padding-top: 0.1em;
+}
+#schoolContact p:last-child{
+    padding: 1em;
+    text-align: justify;
+    text-indent: 1.3em;
+    font-size: 1.2em;
+}
+
+#contact .row .col-lg-7{
+    padding-top: 2em;
+}
+
+#contact .row.no-gutters .col-md-12:first-child .rounded-recomend{
+    height: 6em;
+    border-radius: 3.75em !important;
+}
+#contact .icon-atas a{
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+    transition: 0.5s;
+}
+#contact .icon-atas a:hover{
+    transform: scale(1.2);
+    color: var(--ard-putih);
+    border: none;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+#contact .row.no-gutters .col-md-12:last-child .rounded-recomend{
+    height: 24em;
+    margin-top: 2.5em;
+    border-radius: 3.75em !important;
+}
+#contHobby .row {
+    height: 3.5em;
+}
+#contHobby .row:first-child {
+    margin-top: 1.3em;
+}
+#contHobby .row:last-child {
+    margin-bottom: 1.3em;
+}
+#contHobby .col-md-1 {
+    margin-left: 2em;
+}
+#contHobby .col-md-3{
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+#contHobby .col-md-7{
+    margin-top: 0.3em;
+ }
+.cover-progress{
+    padding: 0.4em;
+    background: var(--ard-hitam);
+    border-radius: 2.5em;
+}
+.cover-progress .progress{
+    border-radius: 1em;
+    height: 1.8em;
+}
+.progress-bar{
+    border-radius: 1em;
+    font-size: 1.3em;
+    transition: width 1s ease !important;
+}

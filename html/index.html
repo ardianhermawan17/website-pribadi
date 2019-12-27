@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="img/png" href="../img/wisuda.png">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--    Untuk CSS-->
+    <link rel="stylesheet" href="../bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/ardian.css">
+
+    <link rel="stylesheet" href="../css/slick/slick.css">
+    <link rel="stylesheet" href="../css/slick/slick-theme.css">
+
+<!--    FONT-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,600i&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/fontawesome/all.css">
+    <link rel="stylesheet" href="../css/fontawesome/aligner.css">
+    <link rel="stylesheet" href="../css/fontawesome/brands.css">
+    <link rel="stylesheet" href="../css/fontawesome/fontawesome.css">
+    <link rel="stylesheet" href="../material-icon/iconfont/material-icons.css">
+
+    <title>Perpustakaan</title>
+<!--    <script src="../css/slick/jquery-1.11.0.min.js"></script>-->
+
+</head>
+<body data-spy="scroll" data-target="#navbarHeader" data-offset="0">
+<!--header-->
+<header class="bg-ard-biru-kehijauan-2 w-100 " id="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-ard-biru-kehijauan-2 " id="navbarHeader">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- gambar -->
+        <a class="navbar-brand ml-auto" href="#">
+            <img src="../img/wisuda.png" class="logo">
+        </a>
+        <div class="collapse navbar-collapse mr-auto flex-grow-0" id="navbarPerpus">
+            <ul class="navbar-nav ">
+                <li class="nav-item active-button">
+                    <a href="#home" class="nav-link font-weight-bold ">
+                        Home <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold text-ard-hitam" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold text-ard-hitam" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section  id="home">
+<!--        jumbotron-->
+        <div class="position-relative overflow-hidden bg-ard-biru-kehijauan-muda">
+           <div class="container position-relative">
+<!--               3 kotak-->
+               <div class="kotak-besar position-absolute"></div>
+               <div class="kotak-sedang position-absolute"></div>
+               <div class="kotak-kecil position-absolute"></div>
+               <div class="row mt-4 mb-4">
+<!--                   untuk kiri-->
+                   <div class="col-lg-7">
+                       <div class="row">
+                           <div class="col-md-12 ml-4">
+                               <h3 class="display-3  text-break font-verdana text-uppercase">Reading is Fascinating</h3>
+                           </div>
+                           <div class="col-md-5 mt-6  ml-4">
+                               <div class="row">
+                                   <div class="col-3">
+                                       <i class="fas fa-book fa-4x"></i>
+                                   </div>
+                                   <div class="col mt-2 align-items-center d-flex text-ukur-2">
+                                       <p class="text-ard-hitam font-weight-bold">80 BOOKS</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-md-5 mt-6">
+                               <div class="row">
+                                   <div class="col-3">
+                                       <i class="fas fa-clipboard-list fa-4x"></i>
+                                   </div>
+                                   <div class="col mt-2 align-items-center d-flex text-ukur-2">
+                                       <p class="text-ard-hitam font-weight-bold">10 LIST</p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+<!--                   Untuk kanan-->
+                   <div class="col-lg-5 mt-4">
+                       <img src="../img/reading.jpg" class="img-fluid img-thumbnail float-right" alt="">
+                   </div>
+               </div>
+           </div>
+        </div>
+<!--        recomend book-->
+        <div class="position-relative">
+            <div class="container-fluid bg-ard-abu-abu" id="recommendBooks">
+                <div class="row ">
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-md-12 ml-5 mt-3">
+                                <p class="text-ard-biru-kehijauan text-break font-verdana text-ukur-3 text-uppercase">Recommend books</p>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="justify-content-end float-right">
+                                    <button id="next" type="button" class="ukuran-button btn bg-ard-biru-kehijauan rounded-circle fas fa-chevron-left text-ukur-1 mr-2"></button>
+                                    <button id="prev" type="button" class="ukuran-button btn bg-ard-biru-kehijauan rounded-circle fas fa-chevron-right text-ukur-1 ml-2"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 overflow-hidden books">
+                        <div class="outline-none">
+                            <div class="item mt-4 ml-3 mr-3">
+                                <div class="card mb-3 rounded-recomend bg-ard-biru-kehijauan" style="width: 340px;">
+                                    <div class="row no-gutters" >
+                                        <div class="col-md-4 mt-3 mb-3 ml-3 ">
+                                            <div class="bg-ard-biru-kehijauan rounded-card-img" style="height: 120px; width: 100px">
+                                                <img src="../img/pascal-buku.jpg" class="rounded-card-img" style="height: 100% !important;" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-body  d-flex justify-content-center align-items-center   h-100">
+                                                <h2 class="card-title text-uppercase">Pascal</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outline-none">
+                            <div class="item mt-4 ml-3 mr-3">
+                                <div class="card mb-3 rounded-recomend bg-ard-biru-kehijauan" style="width: 340px;">
+                                    <div class="row no-gutters" >
+                                        <div class="col-md-4 mt-3 mb-3 ml-3 ">
+                                            <div class="bg-ard-biru-kehijauan rounded-card-img" style="height: 120px; width: 100px">
+                                                <img src="../img/cover_ebook_css_uncover.jpg" class="rounded-card-img" style="height: 100% !important;" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-body  d-flex justify-content-center align-items-center   h-100">
+                                                <h2 class="card-title text-uppercase">CSS 3</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outline-none">
+                            <div class="item mt-4 ml-3 mr-3">
+                                <div class="card mb-3 rounded-recomend bg-ard-biru-kehijauan" style="width: 340px;">
+                                    <div class="row no-gutters" >
+                                        <div class="col-md-4 mt-3 mb-3 ml-3 ">
+                                            <div class="bg-ard-biru-kehijauan rounded-card-img" style="height: 120px; width: 100px">
+                                                <img src="../img/javascript.jpg" class="rounded-card-img" style="height: 100% !important;" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-body  d-flex justify-content-center align-items-center   h-100">
+                                                <h2 class="card-title text-uppercase">Javascript</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outline-none">
+                            <div class="item mt-4 ml-3 mr-3">
+                                <div class="card mb-3 rounded-recomend bg-ard-biru-kehijauan" style="width: 340px;">
+                                    <div class="row no-gutters" >
+                                        <div class="col-md-4 mt-3 mb-3 ml-3 ">
+                                            <div class="bg-ard-biru-kehijauan rounded-card-img" style="height: 120px; width: 100px">
+                                                <img src="../img/httlcs-learning-python-3.jpg" class="rounded-card-img" style="height: 100% !important;" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-body  d-flex justify-content-center align-items-center   h-100">
+                                                <h2 class="card-title text-uppercase">Python 3</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outline-none">
+                            <div class="item mt-4 ml-3 mr-3">
+                                <div class="card mb-3 rounded-recomend bg-ard-biru-kehijauan" style="width: 340px;">
+                                    <div class="row no-gutters" >
+                                        <div class="col-md-4 mt-3 mb-3 ml-3 ">
+                                            <div class="bg-ard-biru-kehijauan rounded-card-img" style="height: 120px; width: 100px">
+                                                <img src="../img/ai.png" class="rounded-card-img" style="height: 100% !important;" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-body  d-flex justify-content-center align-items-center   h-100">
+                                                <h2 class="card-title text-uppercase">Artifical Intelegence</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="about" class="position-relative bg-ard-abu-abu pt-4 pb-4">
+    <div class="container">
+        <div class="card bg-ard-hitam rounded-recomend">
+            <div class="card-body position-relative">
+                <div class="row">
+                    <div class="col-md-5 position-relative">
+                        <div class="position-absolute title-card-about bg-ard-biru-kehijauan d-flex justify-content-center align-items-center">
+                            <p class="text-ukur-2 font-weight-bold mt-2">ABOUT US</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ml-5">
+                        <p class="card-title text-ard-biru-kehijauan text-ukur-1">Facility</p>
+                        <div class="rounded-bar-icon bg-ard-biru-kehijauan d-flex justify-content-center align-items-center">
+                            <div class="row">
+                                <div class="col-md  mr-5">
+                                    <i class="fas fa-laptop fa-3x"></i>
+                                </div>
+                                <div class="col-md ml-2 mr-2">
+                                    <i class="fas fa-wifi fa-3x"></i>
+                                </div>
+                                <div class="col-md ml-5 ">
+                                    <i class="fas fa-book fa-3x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-md-5 mt-5 ml-4">
+                        <img src="../img/Instalasi-di-Perpustakaan-Pasca-Sarjana-PENS-77.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card mt-4 bg-ard-abu-abu rounded-recomend">
+                            <div class="card-body">
+                                <h5 class="card-title text-ard-biru-kehijauan-2 text-ukur-2 text-center"><span class="text-ard-biru-tua">P<span class="text-ard-emas">E</span>NS</span> Library</h5>
+                                <p class="card-text text-ard-putih text-break ml-2 mr-2 mt-5 ">This library is on pascasarjana building 6F, this library is full of book's that can be rent from librarian, with additional condition first you need to be this colloge student, second: you must leaving your smart card to librarian</p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="https://perpustakaan.pens.ac.id/" class="btn bg-ard-biru-kehijauan-2 text-ard-hitam font-verdana">MORE INFO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Services-->
+<section id="services" class="container-fluid  bg-ard-biru-muda position-relative ">
+<!--    NAV-tool-->
+    <div class="row no-gutters flex-nowrap pt-5 pb-5">
+        <div class="col-lg-11">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg d-flex justify-content-center align-items-center ">
+                        <h2 class="text-uppercase pr-5 pl-5 pb-4 text-center">books</h2>
+                    </div>
+                </div>
+                <div class="mt-4 ml-4 mr-4" id="bookList">
+                    <div class="row d-flex justify-content-center bookMenu" >
+                        <div class="col-md-3">
+                            <div class="card pb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center text-uppercase">pascal</h4>
+                                    <p class="card-text text-muted judulBuku">Buku Program</p>
+                                    <p class="card-text text-muted">J.K.Rowling</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="../img/pascal-buku.jpg" class="card-img-top" alt="..">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card pb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">CSS Uncover</h4>
+                                    <p class="card-text text-muted judulBuku">Buku Program</p>
+                                    <p class="card-text text-muted">J.K.Rowling</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="../img/cover_ebook_css_uncover.jpg" class="card-img-top" alt="..">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card pb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Python 3</h4>
+                                    <p class="card-text text-muted judulBuku">Buku Program</p>
+                                    <p class="card-text text-muted">J.K.Rowling</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="../img/httlcs-learning-python-3.jpg" class="card-img-top" alt="..">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center bookMenu" >
+                        <div class="col-md-3">
+                            <div class="card pb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center text-uppercase">pascal</h4>
+                                    <p class="card-text text-muted judulBuku">Buku Program</p>
+                                    <p class="card-text text-muted">J.K.Rowling</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="../img/pascal-buku.jpg" class="card-img-top" alt="..">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card pb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">CSS Uncover</h4>
+                                    <p class="card-text text-muted judulBuku">Buku Program</p>
+                                    <p class="card-text text-muted">J.K.Rowling</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="../img/cover_ebook_css_uncover.jpg" class="card-img-top" alt="..">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card pb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Python 3</h4>
+                                    <p class="card-text text-muted judulBuku">Buku Program</p>
+                                    <p class="card-text text-muted">J.K.Rowling</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="../img/httlcs-learning-python-3.jpg" class="card-img-top" alt="..">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center bookMenu" >
+                        <div class="col-md-3">
+                            <div class="card pb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center text-uppercase">pascal</h4>
+                                    <p class="card-text text-muted judulBuku">Buku Program</p>
+                                    <p class="card-text text-muted">J.K.Rowling</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="../img/pascal-buku.jpg" class="card-img-top" alt="..">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card pb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">CSS Uncover</h4>
+                                    <p class="card-text text-muted judulBuku">Buku Program</p>
+                                    <p class="card-text text-muted">J.K.Rowling</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="../img/cover_ebook_css_uncover.jpg" class="card-img-top" alt="..">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card pb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Python 3</h4>
+                                    <p class="card-text text-muted judulBuku">Buku Program</p>
+                                    <p class="card-text text-muted">J.K.Rowling</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="../img/httlcs-learning-python-3.jpg" class="card-img-top" alt="..">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center bookMenu" >
+                        <div class="col-md-3">
+                            <div class="card pb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center text-uppercase">pascal</h4>
+                                    <p class="card-text text-muted judulBuku">Buku Program</p>
+                                    <p class="card-text text-muted">J.K.Rowling</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="../img/pascal-buku.jpg" class="card-img-top" alt="..">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card pb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">CSS Uncover</h4>
+                                    <p class="card-text text-muted judulBuku">Buku Program</p>
+                                    <p class="card-text text-muted">J.K.Rowling</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="../img/cover_ebook_css_uncover.jpg" class="card-img-top" alt="..">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card pb-4">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Python 3</h4>
+                                    <p class="card-text text-muted judulBuku">Buku Program</p>
+                                    <p class="card-text text-muted">J.K.Rowling</p>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="../img/httlcs-learning-python-3.jpg" class="card-img-top" alt="..">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="end-book mt-5 d-flex justify-content-center">
+                    <h2 class="text"></h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg">
+            <nav class="navbar navbar-light bg-ard-biru-kehijauan position-sticky d-flex justify-content-center" id="nav-right">
+                <i class="fas fa-search  text-ard-hitam"></i>
+                <i class="fas fa-list-alt text-ard-hitam"></i>
+                <button  type="button" class="ukuran-button btn bg-ard-hitam text-ard-biru-kehijauan rounded-circle ">1</button>
+                <button  type="button" class="ukuran-button btn bg-ard-hitam text-ard-biru-kehijauan rounded-circle fas fa-chevron-left  "></button>
+                <button  type="button" class="ukuran-button btn bg-ard-hitam text-ard-biru-kehijauan rounded-circle fas fa-chevron-right "></button>
+<!--                <p id="testing"></p>-->
+            </nav>
+        </div>
+    </div>
+</section>
+<section id="contact" class="bg-ard-abu-abu">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4 mt-5 ml-2 pb-5">
+            <div class="card bg-ard-biru-kehijauan-2 rounded-recomend d-flex  align-items-center">
+                <img src="../img/fotokucrop.jpg" alt="restart internet"  class="mt-4" id="profileContact">
+                <div class="rounded-recomend bg-ard-biru-muda position-relative mt-4" >
+                    <div class=" bg-ard-hitam" id="iconBG"></div>
+                    <button type="button" class="pt-2 text-ard-biru-kehijauan-2 position-relative" onclick="desc()" id="description"><i id="descCrip" class="material-icons">description</i></button>
+                    <button type="button" id="school" class="pt-2 position-relative" onclick="school()" ><i class="material-icons" id="schoolSs">school</i></button>
+                </div>
+                <div class="card-body position-relative overflow-hidden" id="descContactnoJust">
+                    <div class="position-relative" id="descContact">
+                        <div class="bg-ard-hitam">
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <i class="fas fa-user text-ard-biru-kehijauan-2" ></i>
+                                </div>
+                                <div class="col-sm">
+                                    <p class="text-ard-biru-kehijauan-2">Imanuddin Ardian Hermawan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-ard-hitam">
+                            <div class="row">
+                                <div class="col-sm-1 ">
+                                    <i class="material-icons text-ard-biru-kehijauan-2">email</i>
+                                </div>
+                                <div class="col-sm ">
+                                    <p class="text-ard-biru-kehijauan-2 mate">imanuddin.ardian@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-ard-hitam">
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <i class="fas fa-phone-alt text-ard-biru-kehijauan-2"></i>
+                                </div>
+                                <div class="col-sm">
+                                    <p class="text-ard-biru-kehijauan-2 phone">082143581950</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-ard-hitam">
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <i class="fas fa-map-signs text-ard-biru-kehijauan-2"></i>
+                                </div>
+                                <div class="col-sm">
+                                    <p class="text-ard-biru-kehijauan-2 alamat">JL.Margorejo 31 A</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative bg-ard-hitam" id="schoolContact">
+                        <p class="card-text text-ard-putih text-center">Description</p>
+                        <p class="card-text text-ard-putih">
+                            Hanya orang biasa yang tertarik dengan dunia teknologi karena ada banyak ilmu dan keseruan yang dapat diraih didalamnya
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-7 mt-5">
+            <div class="row no-gutters">
+                <div class="col-md-12">
+                    <div class="rounded-recomend bg-ard-biru-kehijauan-2 d-flex justify-content-center align-items-center icon-atas">
+                        <a href="https://github.com/ardianhermawan17" class="fab fa-github fa-4x text-ard-hitam"></a>
+                        <a href="https://gitlab.com/ardian_hermawan_" class="fab fa-gitlab fa-4x text-ard-hitam"></a>
+                        <a href="https://www.linkedin.com/in/imanuddin-ardian-hermawan-059963170/" class="fab fa-linkedin fa-4x text-ard-hitam"></a>
+                        <a href="" class="fab fa-telegram fa-4x text-ard-hitam"></a>
+                        <a href="https://web.facebook.com/imanuddinardian.hermawan.3" class="fab fa-facebook fa-4x text-ard-hitam"></a>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="rounded-recomend bg-ard-biru-kehijauan-2" id="contHobby">
+                        <div id="hob1" class="row">
+                            <div class="col-md-1">
+                                <i class="fas fa-code fa-3x text-ard-hitam"></i>
+                            </div>
+                            <div class="col-md-3">
+                                <p class="text-ard-hitam text-uppercase text-left">progammer</p>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="cover-progress">
+                                    <div class="progress bg-ard-hitam text-ard-putih text-lg-right">
+                                        <div class="progress-bar float-right bg-ard-biru-kehijauan-2 text-ard-hitam font-weight-bold" role="progressbar" style="width: 27%;" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100">27%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="hob2" class="row">
+                            <div class="col-md-1">
+                                <i class="fas fa-paint-brush fa-3x text-ard-hitam"></i>
+                            </div>
+                            <div class="col-md-3">
+                                <p class="text-ard-hitam text-uppercase text-left">design</p>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="cover-progress">
+                                    <div class="progress bg-ard-hitam text-ard-putih text-lg-right">
+                                        <div class="progress-bar float-right bg-ard-biru-kehijauan-2 text-ard-hitam font-weight-bold" role="progressbar" style="width: 23%;" aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">23%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="hob3" class="row">
+                            <div class="col-md-1">
+                                <i class="fas fa-book fa-3x text-ard-hitam"></i>
+                            </div>
+                            <div class="col-md-3">
+                                <p class="text-ard-hitam text-uppercase text-left">reading</p>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="cover-progress">
+                                    <div class="progress bg-ard-hitam text-ard-putih text-lg-right">
+                                        <div class="progress-bar float-right bg-ard-biru-kehijauan-2 text-ard-hitam font-weight-bold" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="hob4" class="row">
+                            <div class="col-md-1">
+                                <i class="fas fa-globe fa-3x text-ard-hitam"></i>
+                            </div>
+                            <div class="col-md-3">
+                                <p class="text-ard-hitam text-uppercase text-left">internet</p>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="cover-progress">
+                                    <div class="progress bg-ard-hitam text-ard-putih text-lg-right">
+                                        <div class="progress-bar float-right bg-ard-biru-kehijauan-2 text-ard-hitam font-weight-bold" role="progressbar" style="width: 18%;" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">18%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="hob5" class="row">
+                            <div class="col-md-1 ">
+                                <i class="fas fa-gamepad fa-3x text-ard-hitam text-left"></i>
+                            </div>
+                            <div class="col-md-3">
+                                <p class="text-ard-hitam text-uppercase text-left">gaming</p>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="cover-progress">
+                                    <div class="progress bg-ard-hitam text-ard-putih text-lg-right">
+                                        <div class="progress-bar float-right bg-ard-biru-kehijauan-2 text-ard-hitam font-weight-bold" role="progressbar" style="width: 12%;" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">12%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="hob6" class="row">
+                            <div class="col-md-1">
+                                <i class="fas fa-mountain fa-3x text-ard-hitam"></i>
+                            </div>
+                            <div class="col-md-3">
+                                <p class="text-ard-hitam text-uppercase text-left">explorer</p>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="cover-progress">
+                                    <div class="progress bg-ard-hitam text-ard-putih text-lg-right">
+                                        <div class="progress-bar float-right bg-ard-biru-kehijauan-2 text-ard-hitam font-weight-bold" role="progressbar" style="width: 8%;" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100">8%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--JS-->
+<script type="text/javascript" src="../js/jquery-3.4.1.js"></script>
+<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="../css/slick/jquery-migrate-1.2.1.min.js"></script>
+<!--<script type="text/javascript" src="../css/slick/jquery-1.11.0.min.js"></script>-->
+<script type="text/javascript" src="../css/slick/slick.min.js"></script>
+
+<script type="text/javascript" src="../js/ardian.js"></script>
+</body>
+</html>

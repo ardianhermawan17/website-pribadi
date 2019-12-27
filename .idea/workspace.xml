@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a902d1f8-9f32-4620-ac47-02232787de02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web 1920 – 1@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ardian.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ardian.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ardian.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ardian.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website pribadi new.rar" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="259" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Tgr4X2VL0TaNIT5fEUnClTPC1t" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../zahra" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website pribadi new/html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="rogur.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website pribadi new/css/rogur.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ardian.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/ardian.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.ardian.js" />
+        <item itemvalue="JavaScript Debug.rogur.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a902d1f8-9f32-4620-ac47-02232787de02" name="Default Changelist" comment="" />
+      <created>1573892388094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573892388094</updated>
+      <workItem from="1573892389545" duration="8361000" />
+      <workItem from="1573957351256" duration="1855000" />
+      <workItem from="1573966325373" duration="25789000" />
+      <workItem from="1574039146550" duration="17709000" />
+      <workItem from="1574125459932" duration="5417000" />
+      <workItem from="1574162199241" duration="651000" />
+      <workItem from="1574168514596" duration="45000" />
+      <workItem from="1574210828974" duration="192000" />
+      <workItem from="1574218447588" duration="23244000" />
+      <workItem from="1574297634599" duration="3797000" />
+      <workItem from="1574317634625" duration="78000" />
+      <workItem from="1574317741075" duration="15421000" />
+      <workItem from="1574385279022" duration="2846000" />
+      <workItem from="1574389540761" duration="6941000" />
+      <workItem from="1574745828522" duration="6878000" />
+      <workItem from="1574767307178" duration="406000" />
+      <workItem from="1574904035994" duration="2103000" />
+      <workItem from="1574906819258" duration="452000" />
+      <workItem from="1574925339025" duration="18169000" />
+      <workItem from="1575340806267" duration="147000" />
+      <workItem from="1575341102703" duration="15000" />
+      <workItem from="1575973610140" duration="387000" />
+      <workItem from="1576031977527" duration="1177000" />
+      <workItem from="1576036084375" duration="46000" />
+      <workItem from="1576037180048" duration="440000" />
+      <workItem from="1576038236476" duration="6200000" />
+      <workItem from="1576142163813" duration="676000" />
+      <workItem from="1577418390468" duration="3447000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/website_pribadi_new$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1574750046345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
